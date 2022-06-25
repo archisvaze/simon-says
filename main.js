@@ -162,7 +162,7 @@ function alert() {
 }
 function loseAlert() {
     let alert = document.querySelector(".alert");
-    alert.innerHTML = "Wrong! Try again?..."
+    alert.innerHTML = "Wrong! Try again?"
     alert.style.backgroundColor = "#ff4545"
     alert.style.top = `160px`;
     setTimeout(() => {
