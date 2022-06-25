@@ -48,7 +48,7 @@ function play(pattern, taps) {
     setTimeout(() => {
         console.log(`userclick time`);
         startButton.innerHTML = "Your Turn!";
-        startButton.style.boxShadow = "0px 0px 10px 2px #00d351"
+        startButton.style.boxShadow = "0px 0px 5px 1px #00d351"
         startButton.style.backgroundColor = "#00d351";
         startButton.style.textShadow = "2px 2px 5px rgba(0, 0, 0, 0.5)";
         document.querySelector(".green").addEventListener("click", pushColorToUser);
