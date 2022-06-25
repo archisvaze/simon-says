@@ -34,7 +34,7 @@ function glow(color) {
 
 function play(pattern, taps) {
     //change start button text
-    startButton.innerHTML = "Simon's Turn ...";
+    startButton.innerHTML = "My Turn ...";
 
     taps = pattern.length
     document.querySelector(".taps").innerHTML = `Taps left: ${taps}`
