@@ -105,20 +105,20 @@ body {
 .start-button {
     position: absolute;
     top: 450px;
-    background-color: #e91e63;
+    background-color: #df8f27;
     width: 150px;
     height: 50px;
     font-size: 15px;
     border: none;
     border-radius: 5px;
-    box-shadow: 0px 0px 20px 5px #ad1457;
     cursor: pointer;
     transition: 0.5s;
 }
 
 .start-button:hover {
-    box-shadow: 0px 0px 20px 5px #ff246d;
-    background-color: #ff246d;
+    box-shadow: 0px 0px 20px 5px #FFAE45;
+    background-color: #FFAE45;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 .green-glow {

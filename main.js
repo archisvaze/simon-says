@@ -35,7 +35,8 @@ function glow(color) {
 function play(pattern, taps) {
     //change start button text
     startButton.innerHTML = "My Turn ...";
-
+    startButton.style.boxShadow = "0px 0px 0px 0px #ff246d"
+    startButton.style.backgroundColor = "#ca1313";
     taps = pattern.length
     document.querySelector(".taps").innerHTML = `Taps left: ${taps}`
     userPattern = [];
@@ -47,7 +48,9 @@ function play(pattern, taps) {
     setTimeout(() => {
         console.log(`userclick time`);
         startButton.innerHTML = "Your Turn!";
-
+        startButton.style.boxShadow = "0px 0px 10px 2px #00d351"
+        startButton.style.backgroundColor = "#00d351";
+        startButton.style.textShadow = "2px 2px 5px rgba(0, 0, 0, 0.5)";
         document.querySelector(".green").addEventListener("click", pushColorToUser);
         document.querySelector(".red").addEventListener("click", pushColorToUser);
         document.querySelector(".blue").addEventListener("click", pushColorToUser);
@@ -112,6 +115,8 @@ function pushColorToUser(e) {
             document.querySelector(".level").innerHTML = `0`;
             removeListernerandothercrap();
             loseAlert();
+            startButton.style.boxShadow = "0px 0px 10px 2px #df8f27"
+            startButton.style.backgroundColor = "#df8f27";
             startButton.innerHTML = `Start Again?`;
             startButton.addEventListener("click", main);
             return;
