@@ -1,1 +1,1 @@
-# archis-says
+# simon-says
