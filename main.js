@@ -132,6 +132,9 @@ function clicked(color) {
     if (!document.querySelector(`.${color}`).classList.contains("clicked")) {
         document.querySelector(`.${color}`).classList.add(`clicked`)
     }
+    setTimeout(()=>{
+        unclick();
+    }, 200)
 }
 
 function unclick() {
@@ -189,4 +192,5 @@ function main() {
 }
 
 startButton.addEventListener("click", main);
+
 
