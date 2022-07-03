@@ -150,7 +150,7 @@ body {
 }
 
 .clicked {
-    border: 2px solid rgb(255, 255, 255);
+    border: 3px solid white ;
 }
 
 .alert {
@@ -171,4 +171,5 @@ body {
     transition: 0.5s;
     top: 10px;
 }
+
 
