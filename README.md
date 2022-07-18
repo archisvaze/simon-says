@@ -1,16 +1,15 @@
 # Simon Game
-An implementation of simon game using HTML, CSS, JS.
 
+Site Link: https://lambent-medovik-b01899.netlify.app/
+
+An implementation of simon game using HTML, CSS, JS.
 ![](./simon_game.png)
 
-## Typography
 
 ### Font
 - Fugaz One
 
-## Colors
-
-### Primary
+### Colors
 - Greyish: #393843
 - Red: #f52e16
 - Pinkish Red: #e91e63, #ad1457
@@ -18,12 +17,7 @@ An implementation of simon game using HTML, CSS, JS.
 - Yellow: #ece02e
 - Green: #3ecb74
 
-
-We will do this project in stages and after each stage please commit your code. Another good idea will be to track the time it took you to finish each part, because we will be having the test of Module 1 soon and it will be time bound.
-
 # Part - 1 - Layout
-
-**Time Taken to finish:**
 
 Finish the layout with HTML and CSS. Here are some ideas to do it:
 - Create four squares and give the border-radius to only one corner. 🟥🟨🟩🟦
@@ -32,11 +26,7 @@ Finish the layout with HTML and CSS. Here are some ideas to do it:
 - Add the text as required, use a cool fancy font, after all it's a game 🕹
 - To give the glow effect on click, you should write some css targeting `:active` pseudo-class.
 
-
-
 # Part - 2 - JS Setup
-
-**Time Taken to finish:**
 
 We will be writing the game such that it works in console first. Once we get the logic right then we will link it to the UI.
 - Imagine you have four color choices `R`, `Y`, `G`, `B`, and each level will be a combination of these colors.
@@ -46,8 +36,6 @@ We will be writing the game such that it works in console first. Once we get the
 
 # Part - 3 - Binding the HTML with JS
 
-**Time Taken to finish:**
-
 This is tricky because we still be writing lot of JS code here.
 - Create refrences (variables) to all required elements, score text, tap count, each color div, start game button, score container etc.
 - Create an object which has key as alphabet `R` and value as color `red` so you can use it to access those elements and colors.
@@ -56,6 +44,3 @@ This is tricky because we still be writing lot of JS code here.
 - For each tap the user does reduce the count and store the guess in a string, and when tap count reaches 0 check if the user has got the correct sequence or not
 - If the user gets correct sequence then update the score and go to next level, else show the final score and start over.
 
-
-
-Feel free to spice it up by adding your own touch, you can add sounds, animation, or use funky colors.
